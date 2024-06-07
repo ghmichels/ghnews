@@ -1,7 +1,7 @@
 {
-  "name": "globo.com",
+  "name": "ghnews",
   "version": "1.0.0",
-  "description": "A clone of the globo.com website using NextJS and TailwindCSS",
+  "description": "News website inspired by globo.com layout developed with NextJS and TailwindCSS",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",

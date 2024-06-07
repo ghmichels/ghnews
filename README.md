@@ -1,2 +1,3 @@
-# globo.com
-A clone of the globo.com website using Next JS and tailwindCSS
+# ghnews
+
+News website inspired by globo.com layout developed with NextJS and TailwindCSS
