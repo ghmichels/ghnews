@@ -10,7 +10,7 @@ export default function Header() {
         </div>
       </div>
       <div className="flex text-4xl font-bold items-center justify-center col-span-4">
-        <a href="" className="text-blue-900">
+        <a href="" className="text-blue-800">
           ghnews
         </a>
       </div>
