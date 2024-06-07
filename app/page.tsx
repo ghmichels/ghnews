@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Header />
       <NavBar />
-      <main className="flex justify-center items-center">Home</main>
+      <main className="flex items-center justify-center">Home</main>
     </>
   );
 }
