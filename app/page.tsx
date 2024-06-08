@@ -5,8 +5,11 @@ export default function Home() {
   return (
     <>
       <Header />
+
       <NavBar />
-      <main className="flex items-center justify-center">Home</main>
+      <main className="m-auto flex h-screen max-w-7xl items-center justify-center">
+        Home
+      </main>
     </>
   );
 }

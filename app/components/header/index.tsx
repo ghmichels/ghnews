@@ -2,7 +2,7 @@ import { Grip, Moon, Search, User } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="flex h-20 justify-between px-6 text-sm text-slate-600 lg:grid lg:grid-cols-6 lg:px-8">
+    <header className="m-auto flex h-20 max-w-7xl justify-between px-6 text-sm text-slate-600 lg:grid lg:grid-cols-6">
       <div className="items-center divide-x py-4 text-center lg:grid lg:grid-cols-2">
         <div className="flex h-full items-center justify-between">
           <a href="" className="flex items-center gap-2">
@@ -25,7 +25,7 @@ export default function Header() {
           ghnews
         </a>
       </div>
-      <div className="flex items-center py-4 text-center md:divide-x lg:grid lg:grid-cols-2">
+      <div className="items-cente flex py-4 text-center md:divide-x lg:grid lg:grid-cols-2">
         <div className="flex h-full items-center justify-center">
           <a href="" className="flex gap-2 max-lg:px-4">
             <span className="max-lg:hidden">Login</span>
@@ -33,7 +33,7 @@ export default function Header() {
           </a>
         </div>
         <div className="flex h-full items-center justify-center">
-          <a href="" className="flex gap-2 max-lg:pl-4">
+          <a href="" className="flex gap-2 md:pl-4">
             <span className="max-lg:hidden">Busca</span>{" "}
             <Search className="text-blue-700" />
           </a>

@@ -1,7 +1,7 @@
 export default function NavBar() {
   return (
     <nav className="border-b-2 border-t-2 border-slate-100 py-2">
-      <div className="flex justify-between px-6 font-bold lg:px-14">
+      <div className="m-auto flex max-w-7xl justify-between px-6 font-bold">
         <a href="" className="text-red-700">
           g1
         </a>
