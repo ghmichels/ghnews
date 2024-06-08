@@ -8,13 +8,13 @@ export default function NavBar() {
         <a href="" className="text-sky-700">
           o globo
         </a>
-        <a href="" className="text-teal-700">
+        <a href="" className="text-teal-700 max-sm:hidden">
           valor
         </a>
         <a href="" className="text-green-600">
           ge
         </a>
-        <a href="" className="text-orange-600">
+        <a href="" className="text-orange-600 max-sm:hidden">
           cartola
         </a>
         <a href="" className="text-rose-600">
@@ -23,11 +23,13 @@ export default function NavBar() {
         <a href="" className="text-orange-600">
           gshow
         </a>
-        <a href="" className="text-red-700">
+        <a href="" className="text-red-700 max-sm:hidden">
           jogos
         </a>
-        <a href="">quem</a>
-        <a href="" className="text-fuchsia-700">
+        <a href="" className="max-sm:hidden">
+          quem
+        </a>
+        <a href="" className="text-fuchsia-700 max-sm:hidden">
           receitas
         </a>
       </div>
